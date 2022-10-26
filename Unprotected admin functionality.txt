@@ -1,0 +1,10 @@
+lab link : https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality
+
+in some websites some functionnality can easly get broke like to access to the admin pannel you can add /admin to the url or finding the path on the robot.txt file 
+or you can browse the admin pannel path name on a worldlist.
+
+steps :
+1-go to home page
+2-try to add some by default name to the url like /admin /administrator ...
+3-browse /robots.txt file
+4-you will find the the admin pannel path

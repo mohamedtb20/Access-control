@@ -1,0 +1,4 @@
+lab link : https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality-with-unpredictable-url
+
+this lab tell us that the div team make unpredictable path to get access to the admin pannel
+To know this path we should take a look to the page source code or any code availible on the application 

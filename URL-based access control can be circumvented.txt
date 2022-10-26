@@ -1,0 +1,12 @@
+lab link : https://portswigger.net/web-security/access-control/lab-url-based-access-control-can-be-circumvented
+
+If a web site uses rigorous front-end controls to restrict access based on URL,
+ but the application allows the URL to be overridden via a request header, 
+ then it might be possible to bypass the access controls using a request with the non-stantard http headers 
+
+ steps :
+ 1-send the /admin request to burpsuite reapeter 
+ 2-add the X-Original-URL : /admin
+ 3-you will see 200k response with the details : delete , usernames ...
+ 4-you add the /delete to the header : X-Original-URL : /admin/delete
+ 5-add the /?username=carlos to the get reqest to get only the username and the url from the header

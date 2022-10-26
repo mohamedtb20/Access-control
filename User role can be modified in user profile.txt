@@ -1,0 +1,11 @@
+lab link : https://portswigger.net/web-security/access-control/lab-user-role-can-be-modified-in-user-profile
+
+In this lab only the user whith the role id 2 has access to the admin pannel
+we must try different requests in the website to see which request give us the roleid parameter on the response
+
+steps :
+1-login and try to update the mail
+2-send the request to burpsuite reapeter
+3-you can see the role id parameter equal to 1
+4-you can add it to the request and change the roleid to 2
+5-send the request again you  will see the admin pannel
