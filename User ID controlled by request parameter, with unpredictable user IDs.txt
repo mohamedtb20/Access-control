@@ -1,0 +1,9 @@
+Lab link : https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter-with-unpredictable-user-ids
+
+GUIDS are unique you can't predirct it so the only solution to find it is to do a different thing on the website
+and see if the website show it in an url somewhere
+
+steps :
+1-login to wiener account 
+2-You can see that the person who do a post when you click on his username the guid is shown on the URL
+3-In burp suite you can change wiener GUID by carlos GUID 

@@ -1,0 +1,8 @@
+Lab link : https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter
+
+If you know the id or username of other person on a website You can access to his account through changing your id by his id 
+
+steps :
+1-Acess to wiener account 
+2-send the post request of wiener account to burpsuite reapeter
+3-change the carlos id to wiener
