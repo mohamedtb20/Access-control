@@ -1,0 +1,6 @@
+lab link : https://portswigger.net/web-security/access-control/lab-referer-based-access-control
+
+suppose an application robustly enforces access control over the main administrative page at /admin, but for sub-pages such as /admin/deleteUser only inspects the Referer header. 
+If the Referer header contains the main /admin URL, then the request is allowed.
+
+it means that you can access to sensitive data through other user referer header
