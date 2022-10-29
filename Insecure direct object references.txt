@@ -1,0 +1,9 @@
+Lab link : https://portswigger.net/web-security/access-control/lab-insecure-direct-object-references
+
+to download a pdf the name of pdf or it's parameter in the id is 1.txt in you change it to 2.txt or 3.txt…
+you can get other txt files from the same website with different data 
+
+steps :
+1-start a live chat
+2-change the download file name in the url to different number : 1.txt
+3-you can see that transcript file 1.txt contain the carlos password

@@ -1,0 +1,10 @@
+lab link : https://portswigger.net/web-security/access-control/lab-method-based-access-control-can-be-circum
+
+In this lab we have 2 thingsthat we will help us to solve the lab : we can upgrade carlos to the admin role
+and we can access to wiener account
+
+why if we login to the wiener account coppy his session cookie using burp suite  (1)
+and in another firefox window try to login with admin credentials and intercept the post request of upgrading carlos to admin role 
+
+we change this post request to a get methode request 
+change the username to wiener and change the session cookie to  the session takes from (1)

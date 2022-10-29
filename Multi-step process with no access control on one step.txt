@@ -1,0 +1,11 @@
+lab link : https://portswigger.net/web-security/access-control/lab-multi-step-process-with-no-access-control-on-one-step
+
+If the website only access control some steps on the website and other steps no so an attacker can access directly to not protected steps 
+
+In this website the website doesn't access control after the upgrade user request
+
+steps :
+-login to administrator 
+-upgrade carlos and send this request to burp reapeter (1)
+-open new tab and access to wiener account to get his ssession cookie that contain the login data of wiener
+-change the seession cookie of (1) to the session cookie of wiener and change the username to wiener
